@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23090E8C19C9B5B8003898C9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23090E8B19C9B5B8003898C9 /* main.cpp */; };
 		23090E8E19C9B5B8003898C9 /* SueClassExample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23090E8D19C9B5B8003898C9 /* SueClassExample.1 */; };
+		23090E9619C9B5D2003898C9 /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23090E9419C9B5D2003898C9 /* car.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		23090E8819C9B5B8003898C9 /* SueClassExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SueClassExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		23090E8B19C9B5B8003898C9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		23090E8D19C9B5B8003898C9 /* SueClassExample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SueClassExample.1; sourceTree = "<group>"; };
+		23090E9419C9B5D2003898C9 /* car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = car.cpp; sourceTree = "<group>"; };
+		23090E9519C9B5D2003898C9 /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				23090E8B19C9B5B8003898C9 /* main.cpp */,
+				23090E9519C9B5D2003898C9 /* car.h */,
+				23090E9419C9B5D2003898C9 /* car.cpp */,
 				23090E8D19C9B5B8003898C9 /* SueClassExample.1 */,
 			);
 			path = SueClassExample;
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23090E9619C9B5D2003898C9 /* car.cpp in Sources */,
 				23090E8C19C9B5B8003898C9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
