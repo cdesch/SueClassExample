@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <string>
+#include "engine.h"
 
 using namespace std;
 class Car {
@@ -18,22 +19,26 @@ private:
     string manufacturer;
     int numDoors;
     int numWheels;
+    Engine* engine;
+    
     
 public:
     
-    Car(string m, int d, int w ); //Constructor with Params
+    Car(string manufacturer, int numDoors, int numWheels, Engine* engine ); //Constructor with Params
     ~Car(); //Deconstructor
     
     
     //Setters
-    void setManufacturer(string m);
-    void setNumDoors(int d);
-    void setNumWheels(int w);
+    void setManufacturer(string manufacturer);
+    void setNumDoors(int numDoors);
+    void setNumWheels(int numWheels);
+    void setEngine(Engine* engine);
     
     //Getters
     string getManufacturer();
     int getNumDoors();
     int getNumWheels();
+    Engine* getEngine();
     
 };
 

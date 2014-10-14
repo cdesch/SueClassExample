@@ -134,7 +134,8 @@ public:
 
 void testCarClass(){
     //Create a new car
-    Car myChevyObject("Chevy", 4, 2); //Create object using constructor
+    Engine* myChevyEngine = new Engine(3,2,3,4);
+    Car myChevyObject("Chevy", 4, 2, myChevyEngine); //Create object using constructor
     
     cout << "Print Car Info: " << endl;
     cout << "--> Manufacturer: "<< myChevyObject.getManufacturer() << endl;
@@ -143,7 +144,8 @@ void testCarClass(){
     
     
     //Create Next Object
-    Car myFordObject("Ford", 2, 4);  //Create object using constructor
+    Engine* myFordEngine = new Engine(23,232,123,43);
+    Car myFordObject("Ford", 2, 4, myFordEngine);  //Create object using constructor
     
     cout << "Print Car Info: " << endl;
     cout << "--> Manufacturer: "<< myFordObject.getManufacturer() << endl;

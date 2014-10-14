@@ -10,37 +10,42 @@
 
 
 //Constructor with Params
-Car::Car(string m, int d, int w ){
+Car::Car(string manufacturer, int numDoors, int numWheels, Engine* engine ){
     
-    manufacturer = m;
-    numDoors = d;
-    numWheels = w;
+    this->manufacturer = manufacturer;
+    this->numDoors = numDoors;
+    this->numWheels = numWheels;
+    this->engine = engine;
 }
 //Deconstructor
 Car::~Car(){
-    
 }
 
 
 //Setters
-void Car::setManufacturer(string m){
-    manufacturer = m;
+void Car::setManufacturer(string manufacturer){
+    this->manufacturer = manufacturer;
 }
-void Car::setNumDoors(int d){
-    numDoors = d;
-    
+void Car::setNumDoors(int numDoors){
+    this->numDoors = numDoors;
 }
-void Car::setNumWheels(int w){
-    numWheels = w;
+void Car::setNumWheels(int numWheels){
+    this->numWheels = numWheels;
+}
+void Car::setEngine(Engine* engine){
+    this->engine = engine;
 }
 
 //Getters
 string Car::getManufacturer(){
-    return manufacturer;
+    return this->manufacturer;
 }
 int Car::getNumDoors(){
-    return numDoors;
+    return this->numDoors;
 }
 int Car::getNumWheels(){
-    return numWheels;
+    return this->numWheels;
+}
+Engine* Car::getEngine(){
+    return this->engine;
 }

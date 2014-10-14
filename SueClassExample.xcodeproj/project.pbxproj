@@ -10,6 +10,7 @@
 		23090E8C19C9B5B8003898C9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23090E8B19C9B5B8003898C9 /* main.cpp */; };
 		23090E8E19C9B5B8003898C9 /* SueClassExample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23090E8D19C9B5B8003898C9 /* SueClassExample.1 */; };
 		23090E9619C9B5D2003898C9 /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23090E9419C9B5D2003898C9 /* car.cpp */; };
+		23F0410719EDDF9800FAE82A /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F0410519EDDF9800FAE82A /* engine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		23090E8D19C9B5B8003898C9 /* SueClassExample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SueClassExample.1; sourceTree = "<group>"; };
 		23090E9419C9B5D2003898C9 /* car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = car.cpp; sourceTree = "<group>"; };
 		23090E9519C9B5D2003898C9 /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
+		23F0410519EDDF9800FAE82A /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		23F0410619EDDF9800FAE82A /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				23090E8B19C9B5B8003898C9 /* main.cpp */,
 				23090E9519C9B5D2003898C9 /* car.h */,
 				23090E9419C9B5D2003898C9 /* car.cpp */,
+				23F0410519EDDF9800FAE82A /* engine.cpp */,
+				23F0410619EDDF9800FAE82A /* engine.h */,
 				23090E8D19C9B5B8003898C9 /* SueClassExample.1 */,
 			);
 			path = SueClassExample;
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23090E9619C9B5D2003898C9 /* car.cpp in Sources */,
+				23F0410719EDDF9800FAE82A /* engine.cpp in Sources */,
 				23090E8C19C9B5B8003898C9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +239,7 @@
 				23090E9319C9B5B8003898C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
