@@ -14,6 +14,7 @@
 #include <iostream>
 #include <string>
 #include "car.h"
+#include <vector>
 using namespace std;
 
 
@@ -131,6 +132,16 @@ public:
     }
 };
 
+
+void testMultipleCars(){
+    int numCarsToCreate = 10; //Number of cars we will create
+    vector <Car*> vectorOfCars; //Emtpy vector of cars
+    for(int i = 0; i < numCarsToCreate; i++){
+        Engine* newEngine = new Engine(i+1,i+2,i+3,i+4); //Creates a new engine object
+        Car* newCar = new Car("carname", i+1, i+2, newEngine); //Creates a new Car object with
+        vectorOfCars.push_back(newCar); //Adds
+    }
+}
 
 void testCarClass(){
     //Create a new car
